@@ -1,0 +1,36 @@
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+}
+
+#title{
+    text-align: center;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    background-color: palevioletred;
+    color: blueviolet;
+}
+#description{
+    text-align: center;
+    border: 1px solid palevioletred;
+    padding: 10px;
+    margin: 30px;
+    color: palevioletred;
+    border-width: 5px;
+
+}
+#name, #email, #number{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+}
+#name, #email, #number{
+   background-color: palevioletred;
+   display:
+}
