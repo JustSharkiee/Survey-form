@@ -29,9 +29,26 @@ html, body{
     border-radius: 40px;
     box-sizing: border-box;
     text-align: center;
+    font-weight: bold;
+    color: blueviolet;
   }
-#name-label, #email-label, #number-label{
+#name-label, #email-label, #number-label, #status, #gender{
     color: palevioletred;
+    font-weight: bold;
    
 
+}
+#genderl, #statusl{
+    background-color: palevioletred;
+    color: blueviolet;
+    font-weight: bold;
+    margin: 10px;
+}
+.citi, .student{
+    color: palevioletred;
+    font-weight: bold;
+    text-align: left;
+}
+#dropdown{
+   text-align: left;
 }

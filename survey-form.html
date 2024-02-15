@@ -16,18 +16,19 @@
       <label for="email" id='email-label' class="label" >Enter Your Email:<input id="email" type="email" required placeholder='Enter Your Email' /></label>
       <br>
       <label for='number' id='number-label' class="label">Enter Your Number: <input type='tel' id='number' name='number' min="10" max="10" placeholder='Enter Your Number'  required></label>
+      
       <div>
-      <select id='dropdown'>
-      <option value='marital-status'>Marital Status</option>
-      <option value='single'>Single</option>
-      <option value='married'>Married</option>
-      <option value='widowed'>Widowed</option>
-      <option value='separated'>Separated</option>
-      <option value='divorced'>Divorced</option>
-      </select>
-      </div>
+        <label for='marital-status' id='status' type='dropdown'>Status: <select id='statusl'  name='marital-status'placeholder='Select Status'>
+        <option value="">Select Status</option>
+        <option value='Single'>Single</option>
+        <option value='Married'>Married</option>
+        <option value='Widowed'>Widowed</option>
+        <option value='Divorced'>Divorced</option>
+        </select></label>
+        </div>
+      
       <div>
-      <label for='gender' type='dropdown'>Gender<select id='gender'  name='gender'placeholder='Select Age'>
+      <label for='gender' id='gender'type='dropdown'>Gender: <select id='genderl'  name='gender'placeholder='Select Age'>
       <option value="">Select Gender</option>
       <option value='Female'>Female</option>
       <option value='Male'>Male</option>
@@ -35,16 +36,16 @@
       </select></label>
       </div>
       </di>
-      <div>
+      <div id="dropdown">
       <ul>
-      <ol for="citizen-ship">Citizenship</ol>
+      <ol for="citizen-ship" class="citi">Citizenship</ol>
       <ol for="us-citizen" ><input id="us-citizen" type="radio" name="citizen-ship" class="grid-style" value='us-citizen'/>US Citizen</ol>
       <ol for="non-citizen" ><input id="non-citizen"  type="radio" name="citizen-ship" class="grid-style" value="non-citizen" />Non Citizen<ol>
       <ol for="other" name="citizenship"><input id="other" type="radio" name="citizen-ship" class="grid-style" value="other"/>Other</ol>
       </ul>
 
       <ul>
-      <ol for="student">Are you a Student</ol>
+      <ol for="student" class="student">Are you a Student</ol>
       <ol for="yes"><input name="student" type="radio" value="yes" class="list-style">Yes</ol>
       <ol for="no"><input name="student" type="radio" value="no" class="list-style">No</ol>
       <ol for="other"><input name="student" type="radio" value="other"class="list-style">Other</ol>
