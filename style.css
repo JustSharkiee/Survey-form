@@ -51,4 +51,32 @@ html, body{
 }
 #list{
     color: palevioletred;
+    font-weight: bold;
+}
+#submit{
+    background-color: palevioletred;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+#experience{
+    color: palevioletred;
+    
+}
+.areat{
+    width: 50%;
+    padding: 3px 3px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: palevioletred;
+    border-radius: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
 }
