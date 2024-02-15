@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE=html> 
+  <html lang="en">
+    <head>
+    <title>Survey Form</title>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet'type='text/css' href='style.css'>
+    </head>
+    <div>
+    <body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Thank you for completing our survey</p>
+    <div>
+    <form id='survey-form' action='Submit'>
+      <label for='name' id='name-label' >Enter Your Name:<input id='name' type="text" placeholder='Enter Your Name' required /></label>
+      <label for="email" id='email-label' >Enter Your Email:<input id="email" type="email" required placeholder='Enter Your Email' /></label>
+      <label for='number' id='number-label'>Enter Your Number: <input type='number' id='number' name='number' min="10" max="10" placeholder='Enter Your Number'  required></label>
+      <div>
+      <select id='dropdown'>
+      <option value='marital-status'>Marital Status</option>
+      <option value='single'>Single</option>
+      <option value='married'>Married</option>
+      <option value='widowed'>Widowed</option>
+      <option value='separated'>Separated</option>
+      <option value='divorced'>Divorced</option>
+      </select>
+      </div>
+      <div>
+      <label for='gender' type='dropdown'>Gender<select id='gender'  name='gender'placeholder='Select Age'>
+      <option value="">Select Gender</option>
+      <option value='Female'>Female</option>
+      <option value='Male'>Male</option>
+      <option value='Non Binary'>Non Binary</option>
+      </select></label>
+      </div>
+      </di>
+      <div>
+      <ul>
+      <ol for="citizen-ship">Citizenship</ol>
+      <ol for="us-citizen" ><input id="us-citizen" type="radio" name="citizen-ship" class="grid-style" value='us-citizen'/>US Citizen</ol>
+      <ol for="non-citizen" ><input id="non-citizen"  type="radio" name="citizen-ship" class="grid-style" value="non-citizen" />Non Citizen<ol>
+      <ol for="other" name="citizenship"><input id="other" type="radio" name="citizen-ship" class="grid-style" value="other"/>Other</ol>
+      </ul>
+
+      <ul>
+      <ol for="student">Are you a Student</ol>
+      <ol for="yes"><input name="student" type="radio" value="yes" class="list-style">Yes</ol>
+      <ol for="no"><input name="student" type="radio" value="no" class="list-style">No</ol>
+      <ol for="other"><input name="student" type="radio" value="other"class="list-style">Other</ol>
+      </ul>
+      <ul>
+      <ol for="diploma">Did you graduate high school?</ol>
+      <ol for="diploma"><input name="diploma" value="yes" type="checkbox" class="inline"/>Yes</ol>
+      <ol for="diploma"><input name="diploma" value="no" type="checkbox" class="inline">No</ol>
+      </ul>
+      </div>
+      <div>
+      <label for="comments-or-suggestions" class="form-label">Do you have some additional comment or suggest for us?</label>
+      <textarea class="form-textarea" name="comments-or-suggestions" id="comments-or-suggestions"></textarea>
+      </div>
+      <ul>
+      <ol for="consent">You you agree to Participate in this survey?</ol>
+      <ol for="consent"><input type="checkbox" name="consent" value="yes" class="inline"/>Yes</ol>
+      <ol for="consent"><input type="checkbox" name="consent" value="no" class="inline"/>No</ol>
+      <div>
+      <input type="submit" class="button" id="submit" value="Submit Survey">
+      </div>
+    </form>
+    <h6>Just Sharkie</h6>
+    </div>
+    </body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color:teal;
+}
+
+** end of undefined **
+
