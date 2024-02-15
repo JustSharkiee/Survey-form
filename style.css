@@ -64,15 +64,17 @@ html, body{
     font-weight: bold;
     
 }
-#experience{
-    color: palevioletred;
-    
+.button{
+    text-align: center;
+    width: 250px;
 }
-.areat{
-    width: 50%;
-    padding: 3px 3px;
-    margin: 8px 0;
-    display: inline-block;
+#submit:hover{
+    background-color: blueviolet;
+    color: palevioletred;
+}
+.textarea{
+   width: 600px;
+    height: 150px;
     background-color: palevioletred;
     border-radius: 40px;
     box-sizing: border-box;
