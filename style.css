@@ -43,12 +43,13 @@ html, body{
     color: blueviolet;
     font-weight: bold;
     margin: 10px;
+    border-radius: 40px;
 }
 .citi, .student{
     color: palevioletred;
     font-weight: bold;
     text-align: left;
 }
-#dropdown{
-   text-align: left;
+#list{
+    color: palevioletred;
 }
