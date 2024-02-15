@@ -21,16 +21,17 @@ html, body{
 
 }
 #name, #email, #number{
-    width: 100%;
-    padding: 12px 20px;
+    width: 50%;
+    padding: 3px 3px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    background-color: palevioletred;
+    border-radius: 40px;
     box-sizing: border-box;
+    text-align: center;
   }
-}
-#name, #email, #number{
-   background-color: palevioletred;
-   display:
+#name-label, #email-label, #number-label{
+    color: palevioletred;
+   
+
 }
